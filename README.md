@@ -19,6 +19,7 @@ Using a function generator it has been found that the buzzer sounds the loudest 
 * Power the avrisp directly from your PC, not through some cheap USB-hub.
 
 # Connections
+The mouse drives an LED when the wireless mouse is still on, but the computer is switched off.  The LED and the serial resistor are replaced by the circuit described below.  
 The buzzer is connected with two GPIO's of the MCU to drive it in a H-bridge configuration.
 
 * Pin 1 connected to one side of the piezo element.
